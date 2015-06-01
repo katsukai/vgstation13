@@ -3,7 +3,7 @@
 DIR: code 
 AUTO_FILE_DIR: ON
 MAP_ICON_TYPE: 0
-WINDOW: code\names.dm
-FILE: code\names.dm
+WINDOW: code\names.dm;code\world.dm
+FILE: code\world.dm
 */
 // END_INTERNALS
