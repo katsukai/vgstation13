@@ -1,5 +1,5 @@
 ## Server name: This appears at the top of the screen in-game. In this case it will read "tgstation: station_name" where station_name is the randomly generated name of the station for the round. Remove the # infront of SERVERNAME and replace 'tgstation' with the name of your choice
-# SERVERNAME tgstation
+ SERVERNAME Space Station 13
 
 ## Alert levels
 ALERT_GREEN All threats to the station have passed. Security may not have weapons visible, privacy laws are once again fully enforced.
@@ -81,25 +81,25 @@ LOG_PDA
 ## default probablity is 1, increase to make that mode more likely to be picked
 ## set to 0 to disable that mode
 ## Cult mode is in alpha test, enable at your own risk
-PROBABILITY EXTENDED 0
+PROBABILITY EXTENDED 1
 PROBABILITY TRAITOR 2
 PROBABILITY METEOR 0
 PROBABILITY MALFUNCTION 2
 PROBABILITY BLOB 2
-PROBABILITY NUCLEAR 0
+PROBABILITY NUCLEAR 2
 PROBABILITY SANDBOX 0
-PROBABILITY WIZARD 0
+PROBABILITY WIZARD 2
 PROBABILITY RESTRUCTURING 0
-PROBABILITY REVOLUTION 5
-PROBABILITY CHANGELING 0
-PROBABILITY CULT 1
+PROBABILITY REVOLUTION 2
+PROBABILITY CHANGELING 2
+PROBABILITY CULT 2
 PROBABILITY MONKEY 0
 PROBABILITY TRAITORCHAN 0
 PROBABILITY EXTEND-A-TRAITORMONGOUS 0
 PROBABILITY EPIDEMIC 1
 PROBABILITY MEME 0
-PROBABILITY HEIST 0
-PROBABILITY MIXED 0
+PROBABILITY HEIST 2
+PROBABILITY MIXED 1
 PROBABILITY RAGINMAGES 0
 
 ## Hash out to disable random events during the round.
@@ -202,10 +202,10 @@ SOCKET_TALK 0
 #AUTOMUTE_ON
 
 ## How long the delay is before the Away Mission gate opens. Default is half an hour.
-GATEWAY_DELAY 18000
+GATEWAY_DELAY 10
 
 ## Remove the # to give assistants maint access.
-#ASSISTANT_MAINT
+ASSISTANT_MAINT
 
 ## Remove the # to enable assistant limiting.
 #ASSISTANT_LIMIT
@@ -215,10 +215,10 @@ ASSISTANT_RATIO 2
 
 ## Remove the # to make rounds which end instantly (Rev, Wizard, Malf) to continue until the shuttle is called or the station is nuked.
 ## Malf and Rev will let the shuttle be called when the antags/protags are dead.
-#CONTINUOUS_ROUNDS
+CONTINUOUS_ROUNDS
 
 ## Uncomment to restrict non-admins from using humanoid alien races
-USEALIENWHITELIST
+#USEALIENWHITELIST
 
 ## Comment this to unrestrict the number of alien players allowed in the round. The number represents the number of alien players for every human player.
 #ALIEN_PLAYER_RATIO 0.2
