@@ -1,9 +1,11 @@
 // BEGIN_INTERNALS
 /*
-DIR: code 
+LAST_COMPILE_TIME: 1433167013
+DIR: code sound sound\music 
 AUTO_FILE_DIR: ON
 MAP_ICON_TYPE: 0
-WINDOW: code\names.dm
-FILE: code\names.dm
+LAST_COMPILE_VERSION: 507.1286
+WINDOW: code\names.dm;code\world.dm
+FILE: code\world.dm
 */
 // END_INTERNALS
